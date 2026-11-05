@@ -22,7 +22,7 @@ import {
   Trash2,
 } from "lucide-react";
 
-const API_URL = "http://localhost:5000/api/transactions";
+const API_URL = "https://personal-finance-tracker-1-u7qq.onrender.com/api/transactions";
 
 const initialForm = () => ({
   name: "",
