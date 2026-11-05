@@ -3,7 +3,7 @@ import { useState } from "react";
 import axios from "axios";
 import { Wallet, Mail, Lock, User, Eye, EyeOff } from "lucide-react";
 
-const AUTH_URL = "http://localhost:5000/api/auth";
+const AUTH_URL = "https://personal-finance-tracker-1-u7qq.onrender.com/api/auth";
 
 function Auth({ onAuthSuccess }) {
   const [isSignup, setIsSignup] = useState(false);
